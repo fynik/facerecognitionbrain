@@ -20,6 +20,7 @@ const getFaceDetection = (imageURL) => {
         }
     ]
   });
+  
   const requestOptions = {
     method: 'POST',
     headers: {
